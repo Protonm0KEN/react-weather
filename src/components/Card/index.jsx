@@ -4,7 +4,6 @@ import styles from './Card.module.scss';
 import WeatherIcons from "../../assets/icons/WeatherIcons";
 const Card = ({ days }) => {
     const { dt, temp, weather } = days
-    console.log(days)
     const getUnix = (option) => {
         const now = new Date(dt * 1000)
         let res = option === 'month' ? now.toLocaleString('ru-RU', { month: 'long' })

@@ -5,7 +5,7 @@ export const SET_LOADING = '@@weather/SET_LOADING';
 
 const setLoading = (bool) => ({
     type: SET_LOADING,
-    payload: bool  
+    payload: bool
 })
 const getWeather = (weather) => ({
     type: GET_WEATHER,
@@ -20,7 +20,6 @@ export const loadWeather = (city) => async (dispatch) => {
     let { data: newData } = res2
     let name = data[0].name
     let weatherObj = { ...newData, name}
-    console.log(weatherObj);
     dispatch(getWeather(weatherObj))
     dispatch(setLoading(false))
 }
