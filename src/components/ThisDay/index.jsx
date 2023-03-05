@@ -9,7 +9,6 @@ import WeatherIcons from '../../assets/icons/WeatherIcons';
 const ThisDay = () => {
   const weather = useSelector(selectWeather);
   const {current} = weather
-  console.log(current.weather[0]&&current.weather[0])
   return (
     <div className={styles['thisDay']}>
       <div className={styles['thisDay__topBlock']}>
