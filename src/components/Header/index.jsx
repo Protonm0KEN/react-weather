@@ -11,12 +11,11 @@ import { loadWeather } from '../../store/weather/weatherActions';
 
 const Header = () => {
     const [searchInput, setSearchInput] = useState('')
-    const [searchValue, setSearchValue] = useState('')
+    const [searchValue, setSearchValue] = useState('Ташкент')
     const dispatch = useDispatch()
     const { theme } = useSelector(state => state)
     useEffect(() => {
-        dispatch(loadWeather(searchValue
-            ))
+        dispatch(loadWeather(searchValue))
     }, [searchValue])
     
     const handleChangeInput = (e) => {

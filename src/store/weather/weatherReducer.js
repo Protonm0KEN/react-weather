@@ -1,7 +1,8 @@
-import { GET_WEATHER } from "./weatherActions"
+import { GET_WEATHER, SET_LOADING } from "./weatherActions"
 
 export const initialState = {
-    list: []
+    list: [],
+    loading: true,
 }
 
 export const weatherReducer = (state = initialState, action) => {
@@ -11,6 +12,11 @@ export const weatherReducer = (state = initialState, action) => {
               ...state,
               list: action.payload
             }
+        case SET_LOADING:
+        return {
+            ...state,
+            loading: action.payload
+        }
         default:
             return state
             break;
