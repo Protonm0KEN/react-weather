@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/react-weather/static/css/main.97943c91.css",
+    "main.js": "/react-weather/static/js/main.467ddaee.js",
+    "static/media/Montserrat-Medium.ttf": "/react-weather/static/media/Montserrat-Medium.c86e3b9010ff63c99166.ttf",
+    "static/media/Montserrat-Bold.ttf": "/react-weather/static/media/Montserrat-Bold.2c155811b35513d5beaa.ttf",
+    "static/media/Montserrat-Regular.ttf": "/react-weather/static/media/Montserrat-Regular.ceb11275ab638627a643.ttf",
+    "static/media/cloud.png": "/react-weather/static/media/cloud.081f120fd08f56583ecd.png",
+    "static/media/sun.svg": "/react-weather/static/media/sun.43f321f4111f9e96a6a1c5669b9fac0d.svg",
+    "index.html": "/react-weather/index.html",
+    "static/media/themeSwitch.svg": "/react-weather/static/media/themeSwitch.d8aeb9eb2ccec39c16b24ca04560cc4a.svg",
+    "main.97943c91.css.map": "/react-weather/static/css/main.97943c91.css.map",
+    "main.467ddaee.js.map": "/react-weather/static/js/main.467ddaee.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.97943c91.css",
+    "static/js/main.467ddaee.js"
+  ]
+}
